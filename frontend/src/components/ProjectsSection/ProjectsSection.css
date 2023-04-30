@@ -1,0 +1,5 @@
+.projects-section {
+    grid-area: "main";
+    background-color: rgb(230, 230, 230);
+    margin-top: 2.9rem;
+}

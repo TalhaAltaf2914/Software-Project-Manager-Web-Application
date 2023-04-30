@@ -1,0 +1,50 @@
+@keyframes appear {
+    0% {
+        background-color: transparent;
+        /* transform: translateX(0); */
+        /* display: none; */
+    }
+
+    100% {
+        /* display: block; */
+         background-color: lightgray;
+        /* transform: translateX(-100%); */ 
+    }
+}
+
+nav{
+    position: fixed;
+    top:0;
+
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 2.9rem;
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 2rem;
+
+}
+
+.account-btn{
+    width: fit-content;
+    padding: 0.3rem 0.7rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    
+    font-weight: bold;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.account-btn:hover{
+    background-color: lightgray;
+    color: black;
+    animation: 1s ease-out 0s 1 appear;
+}

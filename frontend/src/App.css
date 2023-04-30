@@ -1,0 +1,33 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+@keyframes slideInLeft {
+    0% {
+        background-color: #fff;
+        transform: translateX(-100%);
+        /* translateY(-100%) translateZ(-100%); */
+    }
+
+
+    100% {
+        background-color: whitesmoke;
+        transform: translateX(0);
+        /* translateY(0) translateZ(0); */
+    }
+}
+
+@keyframes comeIn {
+    0% {
+        /* background-color: #333; */
+        /* transform: translateX(0); */
+        display: none;
+    }
+
+    100% {
+        display: block;
+        /* background-color: #fff;
+        transform: translateX(-100%); */
+    }
+}

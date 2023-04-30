@@ -1,0 +1,12 @@
+.home-page{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    display: grid;
+    grid-template-areas: "aside main";
+    grid-template-columns: 15rem 1fr;
+    grid-template-rows: minmax(100vh, auto);
+}
+
+
